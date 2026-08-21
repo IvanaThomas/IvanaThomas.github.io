@@ -1,0 +1,38 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60vh;
+  padding: 0 10%;
+}
+
+.intro {
+  width: 55%;
+}
+
+.photo {
+  width: 45%;
+  text-align: center;
+}
+
+.photo img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.contact {
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contact-links a {
+  color: #8f76b3;
+  text-decoration: underline;
+}
