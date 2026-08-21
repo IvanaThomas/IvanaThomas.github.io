@@ -4,6 +4,7 @@ import Navbar from './Navbar.jsx'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import About from './About.jsx'
 import Projects from './Projects.jsx'
+import ivanaPhoto from './assets/ivana.JPG'
 
 
 function Home() {
@@ -20,7 +21,7 @@ function Home() {
               <p></p>
             </div>
             <div className = "photo">
-              <img src = "/src/assets/ivana.jpg" alt = "Ivana Thomas" />
+              <img src={ivanaPhoto} alt="Ivana Thomas" />         
             </div>
           </section>
 
