@@ -1,0 +1,54 @@
+.projects-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 40px;
+}
+
+.projects-page h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.project-card.reverse {
+  flex-direction: row-reverse;
+}
+
+.project-thumbnail {
+  width: 350px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-card-content {
+  flex: 1;
+}
+
+.project-card-content h2 {
+  margin-top: 0;
+}
+
+.technologies {
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+.project-card-content a {
+  display: inline-block;
+  margin-top: 10px;
+}
